@@ -1,0 +1,124 @@
+body {
+    background-color: aqua;
+}
+
+
+
+#clock {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 80px;
+    font-family: 'Orbitron','sans-serif';
+    width: 550px;
+    border-radius: 12px;
+    background-color: blueviolet;
+   
+    border: 1px solid black;
+   
+}
+nav  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+   
+    
+}
+nav button {
+    font-family: 'Orbitron','sans-serif';
+    background-color: blueviolet;
+    color: white;
+    border-radius: 12px;
+    padding: 15px 50px ;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+nav button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+ #relogio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#cron {
+    
+    text-align: center;
+    margin-top: 15px;
+    font-size: 80px;
+    font-family: 'Orbitron','sans-serif';
+    color: white;
+    width: 550px;
+    border-radius: 12px;
+    background-color: blueviolet;
+    border: 1px solid black;
+   
+}
+#cronometro {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cronometro h1 {
+    font-family: 'Orbitron','sans-serif';
+    font-size: 30px;
+}
+
+#relogio h1 {
+    font-family: 'Orbitron','sans-serif';
+    font-size: 30px;
+}
+
+@media(max-width:430px) {
+    nav  {
+        display: flex;
+        flex-direction: column;
+      
+       
+        
+    }
+    #cron {
+    
+        width: 300px;
+        height: 80px;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 12px;
+        background-color: blueviolet;
+        border: 1px solid black;
+       
+    }
+    #clock {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 80px;
+        font-family: 'Orbitron','sans-serif';
+        width: 345px;
+        height: 90px;
+        font-size: 50px;
+        border-radius: 12px;
+        background-color: blueviolet;
+       
+        border: 1px solid black;
+       
+    }
+    
+}
